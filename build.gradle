@@ -19,11 +19,9 @@ buildscript {
         appcompat_version = "1.5.1"
         constraintlayout_version = "2.1.4"
         core_ktx_version = "1.9.0"
-        kotlin_version = "1.7.10"
-        material_version = "1.7.0-alpha02"
-        nav_version = '2.5.2'
-        lifecycle_version = "2.5.1"
-        datastore_version = "1.0.0"
+        kotlin_version = "1.7.0"
+        material_version = "1.8.0-alpha01"
+        nav_version = "2.5.2"
     }
     repositories {
         google()
@@ -31,7 +29,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
 
         // NOTE: Do not place your application dependencies here; they belong
